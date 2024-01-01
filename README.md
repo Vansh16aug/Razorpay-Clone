@@ -36,7 +36,7 @@ This project focuses on replicating the Razorpay website's user interface, provi
 
 Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request.
 
-##License
+## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
 

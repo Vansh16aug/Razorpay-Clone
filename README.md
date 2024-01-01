@@ -29,7 +29,7 @@ This project focuses on replicating the Razorpay website's user interface, provi
    git clone https://github.com/your-username/razorpay-clone.git
 
 ## Usage
-   ```bash
+
    npm run dev  
 
 ## Contributing

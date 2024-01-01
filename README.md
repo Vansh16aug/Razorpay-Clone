@@ -1,4 +1,5 @@
-# Razorpay Website Clone
+# ![Razorpay Image](images/favicon.png)
+Razorpay Website Clone
 
 Welcome to the Razorpay Website Clone project! This project is a demonstration of using Tailwind CSS to recreate the user interface of the Razorpay website. Razorpay is a popular payment gateway service, and this clone aims to showcase the design and layout using Tailwind CSS.
 

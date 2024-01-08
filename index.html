@@ -608,7 +608,7 @@
             loading="lazy"
             class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-[10]">
 
-            <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[10]">
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]">
                 <!-- item1 -->
                 <div class="relative flex items-center">
                     <h2 class="font-mullish text-deepBlueHead font-bold text-4xl leading-[3.375rem]">
@@ -697,7 +697,7 @@
             <p class="text-white font-mullish text-center mx-auto max-w-[450px]">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
 
             <!-- boxes -->
-            <div class="py-6 grid grid-cols-4 mt-4 gap-[2rem]">
+            <div class="py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-4 gap-[2rem]">
                 <!-- box1 -->
                 <div>
                     <img src="images/instant-activation-icon.svg" alt="">
@@ -754,9 +754,9 @@
     <!-------------------------------------------FeatureSection5----------------------------------------------------->
 
     <section class="bg-[#f5f8fe] relative -mt-[200px] pt-40 pb-12 z-[100]">
-        <div class="w-10/12 max-w-[1080px] relative mx-auto pt-4 justify-between flex flex-row">
+        <div class="w-10/12 max-w-[1080px] relative mx-auto pt-4 justify-between flex flex-col md:flex-row sm:my-16">
             <!-- leftsection -->
-            <div class="flex flex-col my-4 py-10 relative max-w-[calc(100%-500px)] justify-center">
+            <div class="flex flex-col my-4 py-10 relative w-full md:max-w-[calc(100%-500px)] justify-center">
                 <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
                 <div class="w-6 h-1 bg-greenLight my-4 mb-10"></div>
                 <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.
@@ -770,7 +770,7 @@
                 </button>
             </div>
             <!-- image  -->
-            <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+            <div class="h-[500px] w-[500px] relative overflow-y-hidden mx-auto">
                 <div style="background: linear-gradient(180deg,#f4f8ff,#fff0);"
                 class="absolute w-full h-[150px] top-0 z-50"></div>
 
@@ -785,76 +785,68 @@
 
     <!------------------------------------------TestimonialSection---------------------------------------------------->
 
-    <section class="relative ">
-        <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
-            <img src="images/feature-section1-dottedrows.png" alt=""
-            loading="lazy"
-            class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
-            <h2 class="font-mullish font-bold text-2xl text-deepBlueHead text-center">An Experience <br> People Love to Talk About</h2>
-            <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
-            
-            <!-- leftButton -->
-            <button 
-            class="absolute w-[100px] h-[100px] bg-[#f4f8ff] rounded-full left-0 top-1/2 flex justify-center items-center">
-                <div class="w-[65%] h-[65%] bg-[#f4f8ff] mix-blend-multiply rounded-full flex justify-center items-center">
-                    <i data-feather="chevron-right"
-                        class="stroke-[5px] w-6 h-6 text-gray-400 rotate-180">
-                    </i>
-                </div>
+    <section>
+      <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+        <img src="images/feature-section1-dottedrows.png" class="hidden md:block absolute w-[200px] -z-[1] top-[8rem] left-[2rem]">
+        <h2 class="font-mullish font-extrabold text-2xl text-center text-deepBlueHead">
+          <span>An Experience</span>
+          <br>
+          <span>People Love to Talk About</span>
+        </h2>
+        <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
+        <button class="w-[36px] h-[36px] md:w-[96px] md:h-[96px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 -translate-y-1/2 grid place-items-center">
+          <div class="w-[65%] h-[65%] bg-[#f4f8ff] mix-blend-multiply rounded-full grid place-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left stroke-[5px] w-6 h-6 md:w-10 md:h-10 text-gray-400"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </div>
+        </button>
+        <button class="w-[36px] h-[36px] md:w-[96px] md:h-[96px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 -translate-y-1/2 grid place-items-center">
+          <div class="w-[65%] h-[65%] bg-[#f4f8ff] mix-blend-multiply rounded-full grid place-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right stroke-[5px] w-6 h-6 md:w-10 md:h-10 text-gray-400"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>
+        </button>
+        <div class="max-w-[960px] mx-auto flex flex-col xl:flex-row items-center xl:space-x-[10rem] my-20">
+          <img src="images/shubam_unacademy.png" width="320px" height="320px" loading="lazy" class="object-cover rounded-xl w-[250px] h-[250px] md:w-[320px] md:h-[320px]">
+          <!-- small screens -->
+          <div class="xl:hidden mt-4">
+            <p class="font-mullish font-extrabold text-2xl text-center">
+              Subham Kumar
+            </p>
+            <p class="font-mullish font-medium text-center my-2">
+              Product Manager
+            </p>
+            <img src="images/unacademy.1c618f03.svg" width="200" height="40" class="object-cover mx-auto">
+            <img src="images/quotes.svg" class="w-[35px] h-[40px] -mb-2">
+            <p class="font-mullish text-3xl font-extralight max-w-[300px]">
+              Acquire Customers From New Customer Segments
+            </p>
+            <button class="italic underline text-sm text-grayText">
+              Learn More
             </button>
-
-            <!-- RightButton -->
-            <button 
-            class="absolute w-[100px] h-[100px] bg-[#f4f8ff] rounded-full right-0 top-1/2 flex justify-center items-center">
-                <div class="w-[65%] h-[65%] bg-[#f4f8ff] mix-blend-multiply rounded-full flex justify-center items-center">
-                    <i data-feather="chevron-right"
-                        class="stroke-[5px] w-6 h-6 text-gray-400">
-                    </i>
-                </div>
+          </div>
+          <!-- large screens -->
+          <div class="hidden xl:block max-w-[400px]">
+            <img src="images/quotes.svg" class="w-[35px] h-[40px] -mb-2">
+            <p class="font-mullish text-3xl font-extralight">
+              Acquire Customers From New Customer Segments
+            </p>
+            <button class="italic underline text-sm text-grayText">
+              Learn More
             </button>
-
-            <!-- mainContent -->
-            <div class=" flex flex-row max-w-[960px] mx-auto my-20 space-x-[10rem] items-center ">
-
-                    <!-- leftImage -->
-                    
-                        <img src="images/shubam_unacademy.png" alt="" loading="lazy"
-                        class=" rounded-xl"
-                        width="320px"
-                        height="320px">
-                    
-
-                    <!-- rightSide -->
-                    <div class="max-w-[400px] flex flex-col">
-                        
-                            <img src="images/quotes.svg" alt=""
-                            loading="lazy"
-                            width="35px"
-                            height="40px"
-                            class="-mb-2">
-                            <p class="font-mullish text-3xl font-extralight">Acquire Customers From New Customer Segments</p>
-                            <a href="#" class="text-grayText italic underline">Learn More</a>
-                        
-                            <h3 class="font-mullish font-extrabold text-2xl">Subham Kumar</h3>
-                            <p class="font-mullish font-medium">Product Manager</p>
-                            <img src="images/unacademy.1c618f03.svg" alt=""  height="40px" width="80px" class="mt-4">
-                        
-                    </div>                    
-                </div>
-                
-            </div>
-            <!-- SixDots -->
-            <div class="flex flex-row max-auto space-x-2 justify-center pb-10">
-                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
-                <div class="h-[10px] w-[10px] bg-blue-300 rounded-full"></div>
-                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
-                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
-                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
-                <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
-            </div>
+            <p class="font-mullish font-extrabold text-2xl">Subham Kumar</p>
+            <p class="font-mullish font-medium">Product Manager</p>
+            <img src="images/unacademy.1c618f03.svg" width="200" height="40" class="object-cover">
+          </div>
         </div>
+        <div class="hidden lg:flex items-start mx-auto w-max space-x-2">
+          <div class="w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer"></div>
+          <div class="w-[10px] h-[10px] bg-lightBlue300 rounded-full cursor-pointer"></div>
+          <div class="w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer"></div>
+          <div class="w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer"></div>
+          <div class="w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer"></div>
+          <div class="w-[10px] h-[10px] bg-gray-300 rounded-full cursor-pointer"></div>
+        </div>
+      </div>
     </section>
-
 
     <!--------------------------------------------LastSection------------------------------------------------------>
 
@@ -895,7 +887,7 @@
         </div>
 
             <!-- rightSide image  -->
-            <img src="images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3">
+            <img src="images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3 hidden lg:block">
     </section>
 
 

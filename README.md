@@ -26,7 +26,7 @@ This project focuses on replicating the Razorpay website's user interface, provi
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/razorpay-clone.git
+   git clone https://github.com/your-username/Razorpay-Clone.git
 
 ## Usage
 
